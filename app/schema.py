@@ -4,8 +4,8 @@ class Component(BaseModel):
 	id: int
 	title: str
 	type: str
-	mtbf: str
-	mttr: str
+	mtbf: float
+	mttr: float
 	available: float
 
 
